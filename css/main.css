@@ -1,0 +1,80 @@
+:root {
+    --font-s: 1rem;
+    --font-m: 2rem;
+    --font-l: 3rem;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    font-family: "Delius", cursive;
+
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.describe1 {
+    position: absolute;
+    top: 200px;
+    text-transform: uppercase;
+    font-weight: 50;
+
+}
+
+.describe2 {
+    position: absolute;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+
+    font-size: var(--font-l);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.describe2::before {
+    content: '';
+    height: 1px;
+    bottom: 10px;
+    background-color: rgb(241, 213, 175);
+}
+
+.describe3 {
+    position: absolute;
+    top: 350px;
+    font-size: var(--font-s);
+    width: 65%;
+    justify-content: center;
+}
+
+.menu_btn {
+    position: absolute;
+    top: 400px;
+    margin: 20px;
+
+
+}
+
+.checkMenu_btn {
+    background-color: rgb(226, 171, 100);
+    color: rgb(230, 214, 195);
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,50 @@
+:root {
+    --font-s: 1rem;
+    --font-m: 2rem;
+    --font-l: 3rem;
+}
+
+.About_menu {
+    position: relative;
+    top: 200px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.about_heading {
+    font-size: 2.8rem;
+}
+
+.about_path {
+    margin: 10px;
+}
+
+.about_description {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 300px;
+    background-color: white;
+    margin: 150px 0px;
+}
+
+.about_description_content {
+    position: relative;
+    left: 20%;
+    width: 50%;
+}
+
+.about_description_img {
+    position: absolute;
+    right: 0px;
+
+    justify-content: flex-end;
+}
+
+.about_description_imgs {
+    height: 300px;
+}
