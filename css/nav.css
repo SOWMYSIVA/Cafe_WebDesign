@@ -35,6 +35,8 @@ section {
 .contact {
     display: flex;
     float: left;
+    width: 100%;
+
 }
 
 .social_icons {
@@ -45,7 +47,9 @@ section {
     display: flex;
     float: left;
     position: relative;
-    left: 1000px;
+    left: 1400px;
+
+
 
 }
 
@@ -86,7 +90,7 @@ section {
     overflow: hidden;
     display: flex;
 
-    left: 1000px;
+    left: 1100px;
 }
 
 .nav ul li {}
