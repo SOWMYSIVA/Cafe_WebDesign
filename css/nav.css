@@ -7,7 +7,8 @@
 section {
     height: 100vh;
     width: 100%;
-    font-family: "Delius", cursive;
+    /* font-family: "Delius", cursive; */
+    font-family: "Sahitya", serif;
 
     font-style: normal;
 }
@@ -19,7 +20,7 @@ section {
 
 .menu {
     background-image: url("../images/cafe_main.jpg");
-    position: fixed;
+
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -35,8 +36,6 @@ section {
 .contact {
     display: flex;
     float: left;
-    width: 100%;
-
 }
 
 .social_icons {
@@ -47,9 +46,7 @@ section {
     display: flex;
     float: left;
     position: relative;
-    left: 1400px;
-
-
+    left: 1000px;
 
 }
 
@@ -64,7 +61,8 @@ section {
     background-color: white;
     width: 100%;
     display: flex;
-
+    position: sticky;
+    top: 0px;
 
 }
 
@@ -90,7 +88,7 @@ section {
     overflow: hidden;
     display: flex;
 
-    left: 1100px;
+    left: 1000px;
 }
 
 .nav ul li {}
@@ -106,15 +104,33 @@ section {
 
 .arrow {}
 
+@media all and (max-width:440px) {
+    .nav ul {
+        position: relative;
+
+        overflow: hidden;
+        display: flex;
+
+        left: 250px;
+    }
+}
+
 @media all and (max-width:1280px) {
     .nav ul {
         position: relative;
-        left: 600px;
+        left: 550px;
     }
 
     .nav ul li a {
 
         padding: 30px 10px;
+    }
+
+    .contact_addr {
+
+        position: relative;
+        left: 800px;
+
     }
 
 }
